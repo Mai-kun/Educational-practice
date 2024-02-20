@@ -1,4 +1,6 @@
-﻿namespace Exercise_6
+﻿using System;
+
+namespace Exercise_6
 {
     class Game
     {

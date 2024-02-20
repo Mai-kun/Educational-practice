@@ -6,6 +6,8 @@
 "Ферзь сможет побить фигуру", "Ферзь не сможет побить фигуру", "Введены некорректные координаты"
 */
 
+using System;
+
 namespace Exercise_3
 {
     internal class Program

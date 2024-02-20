@@ -6,6 +6,8 @@
 "Король сможет побить фигуру", "Король не сможет побить фигуру", "Введены некорректные координаты"
 */
 
+using System;
+
 namespace Exercise_4
 {
     internal class Program
