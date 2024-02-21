@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 1", "Exercise 1\Exercise 1.csproj", "{44DBB15E-1869-457B-BC2A-DF1A761698F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 1 +", "Exercise 1\Exercise 1 +.csproj", "{44DBB15E-1869-457B-BC2A-DF1A761698F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 2", "Exercise 2\Exercise 2.csproj", "{99F9F1CA-34EB-4549-9A38-6669D1FD9FFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 2 +", "Exercise 2\Exercise 2 +.csproj", "{99F9F1CA-34EB-4549-9A38-6669D1FD9FFC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 3", "Exercise 3\Exercise 3.csproj", "{0458A879-64E5-464D-BA4F-60B820119988}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 3 +", "Exercise 3\Exercise 3 +.csproj", "{0458A879-64E5-464D-BA4F-60B820119988}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 4", "Exercise 4\Exercise 4.csproj", "{8064E7BE-EE53-4A86-B94D-1773AFBD4284}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 4 +", "Exercise 4\Exercise 4 +.csproj", "{8064E7BE-EE53-4A86-B94D-1773AFBD4284}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 5", "Exercise 5\Exercise 5.csproj", "{208967D1-C4B7-43D7-AE02-68562787F62F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 5 +", "Exercise 5\Exercise 5 +.csproj", "{208967D1-C4B7-43D7-AE02-68562787F62F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 6", "Exercise 6\Exercise 6.csproj", "{3C9B4BCD-126F-4A96-B3A5-2277BECC0D87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 6 +", "Exercise 6\Exercise 6 +.csproj", "{3C9B4BCD-126F-4A96-B3A5-2277BECC0D87}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 7", "Exercise 7\Exercise 7.csproj", "{DC0173C2-AFDF-4622-959E-0D3486598E0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 8", "Exercise 8\Exercise 8.csproj", "{8710F8C0-4E23-4671-9419-6D2872ABBF69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 8 +", "Exercise 8\Exercise 8 +.csproj", "{8710F8C0-4E23-4671-9419-6D2872ABBF69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise 9", "Exercise 9\Exercise 9.csproj", "{FABF05BC-C2ED-47AB-A2C5-6D28C55BF35D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 10", "Exercise 10\Exercise 10.csproj", "{0760E8EC-6A9A-40BC-B9EA-D20BAFF5E5EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{8710F8C0-4E23-4671-9419-6D2872ABBF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8710F8C0-4E23-4671-9419-6D2872ABBF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8710F8C0-4E23-4671-9419-6D2872ABBF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FABF05BC-C2ED-47AB-A2C5-6D28C55BF35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABF05BC-C2ED-47AB-A2C5-6D28C55BF35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABF05BC-C2ED-47AB-A2C5-6D28C55BF35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABF05BC-C2ED-47AB-A2C5-6D28C55BF35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0760E8EC-6A9A-40BC-B9EA-D20BAFF5E5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0760E8EC-6A9A-40BC-B9EA-D20BAFF5E5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0760E8EC-6A9A-40BC-B9EA-D20BAFF5E5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0760E8EC-6A9A-40BC-B9EA-D20BAFF5E5EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

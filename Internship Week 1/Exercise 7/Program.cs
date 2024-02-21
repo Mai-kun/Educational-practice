@@ -33,7 +33,7 @@ namespace Exercise_7
             return map;
         }
 
-        private static char[,] ReadMapAnswer(int performerRaw, int performerColumn, string choosedLevel)
+        private static char[,] ReadMapAnswer(string choosedLevel)
         {
             string[] newFile = File.ReadAllLines(@$"maps\mapsPath\{choosedLevel}Path.txt");
             char[,] map_path = new char[newFile.Length, newFile[0].Length];
@@ -63,11 +63,11 @@ namespace Exercise_7
         private static readonly int maxStepAmount = 300;
         private static void ShowInformation(int amountStep, string level)
         {
-            StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append("[");
+            StringBuilder stringBuilder = new();
+            stringBuilder.Append('[');
             for (int i = 0; i < amountStep; i += maxStepAmount / 10)
             {
-                stringBuilder.Append("#");
+                stringBuilder.Append('#');
             }
             for (int i = stringBuilder.Length; i < 11; i++)
             {
@@ -75,7 +75,7 @@ namespace Exercise_7
             }
             stringBuilder.Append(']');
 
-            void showTutorial(int horizontalOffset)
+            void ShowTutorial(int horizontalOffset)
             {
                 Console.SetCursorPosition(horizontalOffset, 0);
                 Console.WriteLine("Сделайте ход!");
@@ -92,11 +92,11 @@ namespace Exercise_7
 
             if (level == "map2")
             {
-                showTutorial(70);
+                ShowTutorial(70);
             }
             else
             {
-                showTutorial(40);
+                ShowTutorial(40);
             }
 
         }
@@ -157,7 +157,7 @@ namespace Exercise_7
                         }
                         else
                         {
-                            map_path = ReadMapAnswer(performerRaw, performerColumn, choosedLevel);
+                            map_path = ReadMapAnswer(choosedLevel);
                             DrawMap(map_path);
                             isMapPathDrawn = true;
                         }
