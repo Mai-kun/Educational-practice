@@ -117,7 +117,7 @@ namespace Exercise_10
         }
 
 
-        static void Main(string[] args)
+        static void Main()
         {
             const int IntStart = 'a';
             const int IntEnd = 'h';
