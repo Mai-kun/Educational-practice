@@ -486,8 +486,9 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(button0);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             Name = "Form1";
-            Text = "Form1";
+            Text = "Игра \"2 лисы и 20 кур\"";
             ResumeLayout(false);
         }
 
