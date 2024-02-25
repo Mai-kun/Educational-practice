@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace Exercise_11
 {
     public partial class Form1 : Form
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0044:Добавить модификатор только для чтения", Justification = "<Ожидание>")]
         private NewTextBox[,] newTextBoxes = new NewTextBox[9, 9];
 
         public Form1()
@@ -17,10 +19,10 @@ namespace Exercise_11
             CreateMap();
         }
 
-        static Color back1 = Color.White;
-        static Color back2 = Color.Cyan;
+        static readonly Color back1 = Color.White;
+        static readonly Color back2 = Color.Cyan;
 
-        Color[] background =
+        readonly Color[] background =
         {
             back1,back1,back1, back2,back2,back2, back1,back1,back1,
             back1,back1,back1, back2,back2,back2, back1,back1,back1,
@@ -61,6 +63,11 @@ namespace Exercise_11
                     newTextBox.TextChanged += CheckInput;
                     newTextBoxes[i, j] = newTextBox;
                     Controls.Add(newTextBox);
+
+                    if (!int.TryParse(newTextBox.Text, out int _))
+                    {
+                        newTextBox.Text = "";
+                    }
                 }
             }
             Controls.Add(BtnShowExample);
@@ -257,7 +264,7 @@ namespace Exercise_11
         }
 
 
-        private static string[] coord =
+        private static readonly string[] coord =
         {
             "0022", "0325", "0628",
 
@@ -414,7 +421,7 @@ namespace Exercise_11
 {
     public partial class Form1 : Form
     {
-        private static string[] completeSudoku =
+        private static readonly string[] completeSudoku =
         {
             "218375469",
             "364289157",
@@ -467,12 +474,19 @@ namespace Exercise_11
 
             try
             {
-                using StreamWriter writer = new StreamWriter(filePath);
+                using StreamWriter writer = new(filePath);
                 for (int i = 0; i < newTextBoxes.GetLength(0); i++)
                 {
                     for (int j = 0; j < newTextBoxes.GetLength(1); j++)
                     {
-                        writer.Write(newTextBoxes[i, j].Text);
+                        if (newTextBoxes[i, j].Text == "")
+                        {
+                            writer.Write("~");
+                        }
+                        else
+                        {
+                            writer.Write(newTextBoxes[i, j].Text);
+                        }
                     }
                 }
 
@@ -491,14 +505,28 @@ namespace Exercise_11
 
                 string[] save = new string[9];
 
-                using StreamReader reader = new StreamReader(filePath);
+                StringBuilder stringBuilder = new();
+
+                using StreamReader reader = new(filePath);
+
+                char tempChar;
 
                 for (int i = 0; i < newTextBoxes.GetLength(0); i++)
                 {
                     for (int j = 0; j < newTextBoxes.GetLength(1); j++)
                     {
-                        save[i] += (reader.Read() - '0').ToString();
+                        tempChar = (char)reader.Read();
+                        if (tempChar == '~')
+                        {
+                            stringBuilder.Append(tempChar);
+                        }
+                        else
+                        {
+                            stringBuilder.Append(tempChar - '0');
+                        }
                     }
+                    save[i] = stringBuilder.ToString();
+                    stringBuilder.Clear();
                 }
 
                 CreateMap(save);
