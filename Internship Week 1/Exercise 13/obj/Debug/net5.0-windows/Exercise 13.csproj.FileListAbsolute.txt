@@ -1,0 +1,18 @@
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\bin\Debug\net5.0-windows\Exercise 13.exe
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\bin\Debug\net5.0-windows\Exercise 13.deps.json
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\bin\Debug\net5.0-windows\Exercise 13.runtimeconfig.json
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\bin\Debug\net5.0-windows\Exercise 13.runtimeconfig.dev.json
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\bin\Debug\net5.0-windows\Exercise 13.dll
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\bin\Debug\net5.0-windows\ref\Exercise 13.dll
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\bin\Debug\net5.0-windows\Exercise 13.pdb
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\obj\Debug\net5.0-windows\Exercise 13.csproj.AssemblyReference.cache
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\obj\Debug\net5.0-windows\Exercise_13.Form1.resources
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\obj\Debug\net5.0-windows\Exercise 13.csproj.GenerateResource.cache
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\obj\Debug\net5.0-windows\Exercise 13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\obj\Debug\net5.0-windows\Exercise 13.AssemblyInfoInputs.cache
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\obj\Debug\net5.0-windows\Exercise 13.AssemblyInfo.cs
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\obj\Debug\net5.0-windows\Exercise 13.csproj.CoreCompileInputs.cache
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\obj\Debug\net5.0-windows\Exercise 13.dll
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\obj\Debug\net5.0-windows\ref\Exercise 13.dll
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\obj\Debug\net5.0-windows\Exercise 13.pdb
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 13\obj\Debug\net5.0-windows\Exercise 13.genruntimeconfig.cache

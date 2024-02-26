@@ -62,8 +62,12 @@ namespace Exercise_10
 
         private static bool IsQueenBeat(string coordinateFirstFigure, string coordinateSecondFigure)
         {
-            return IsBishopBeat(coordinateFirstFigure, coordinateSecondFigure) &&
-                IsRookBeat(coordinateFirstFigure, coordinateSecondFigure);
+            if (IsBishopBeat(coordinateFirstFigure, coordinateSecondFigure))
+                return true;
+            if (IsRookBeat(coordinateFirstFigure, coordinateSecondFigure))
+                return true;
+
+            return false;
         }
 
         private static bool IsKingBeat(string coordinateFirstFigure, string coordinateSecondFigure)
@@ -82,7 +86,7 @@ namespace Exercise_10
                 case "ладья":
                     if (IsRookBeat(coorinateEnemyFigure, coordinateSecond))
                     {
-                        return false;
+                        return false;;
                     }
                     break;
 
@@ -90,27 +94,27 @@ namespace Exercise_10
                     if (IsSameColor(coorinateEnemyFigure, coordinateSecond) &&
                         IsBishopBeat(coorinateEnemyFigure, coordinateSecond))
                     {
-                        return false;
+                        return false;;
                     }
                     break;
 
                 case "ферзь":
                     if (IsQueenBeat(coorinateEnemyFigure, coordinateSecond))
                     {
-                        return false;
+                        return false;;
                     }
                     break;
 
                 case "король":
                     if (IsKingBeat(coorinateEnemyFigure, coordinateSecond))
                     {
-                        return false;
+                        return false;;
                     }
                     break;
 
                 default:
                     Console.WriteLine("Фигуры не существует");
-                    return false;
+                    return false;;
             }
 
             return true;
@@ -137,7 +141,7 @@ namespace Exercise_10
 
 
                 bool result = false;
-
+                
                 char x1 = (char)random.Next(IntStart, IntEnd);
                 int y1 = (char)random.Next(1, 9);
 
