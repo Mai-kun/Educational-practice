@@ -10,8 +10,7 @@ namespace Exercise_11
 {
     public partial class Form1 : Form
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0044:Добавить модификатор только для чтения", Justification = "<Ожидание>")]
-        private NewTextBox[,] newTextBoxes = new NewTextBox[9, 9];
+        private readonly NewTextBox[,] newTextBoxes = new NewTextBox[9, 9];
 
         public Form1()
         {
@@ -96,9 +95,7 @@ namespace Exercise_11
 
             bool flag = false;
             for (int i = 0; i < newTextBoxes.GetLength(0) && flag == false; i++)
-            {
                 for (int j = 0; j < newTextBoxes.GetLength(1); j++)
-                {
                     if (sender == newTextBoxes[i, j])
                     {
                         CheckRow(row: i);
@@ -107,17 +104,12 @@ namespace Exercise_11
                         flag = true;
                         break;
                     }
-                }
-            }
 
             for (int i = 0; i < newTextBoxes.GetLength(0); i++)
-            {
                 for (int j = 0; j < newTextBoxes.GetLength(1); j++)
                 {
                     if (newTextBoxes[i, j].Text == "")
-                    {
                         continue;
-                    }
 
                     if (IsFieldUnick(row: i, column: j))
                     {
@@ -127,7 +119,6 @@ namespace Exercise_11
                         newTextBoxes[i, j].isColoredFromColumn = false;
                     }
                 }
-            }
         }
 
         private void ColorRaw(int row, Color color)
@@ -161,7 +152,6 @@ namespace Exercise_11
         private void ColorBlock3x3(string coord, Color color)
         {
             for (int i = coord[0] - '0'; i < coord[2] - '0' + 1; i++)
-            {
                 for (int j = coord[1] - '0'; j < coord[3] - '0' + 1; j++)
                 {
                     if (newTextBoxes[i, j].isColoredFromRow == true ||
@@ -172,14 +162,12 @@ namespace Exercise_11
 
                     newTextBoxes[i, j].ForeColor = color;
                 }
-            }
         }
 
         private void CheckRow(int row)
         {
             bool flag = false;
             for (int j = 0; j < newTextBoxes.GetLength(0); j++) // Столбец
-            {
                 for (int k = j + 1; k < newTextBoxes.GetLength(1); k++)
                 {
                     if (newTextBoxes[row, j].Text == "")
@@ -195,7 +183,6 @@ namespace Exercise_11
                         newTextBoxes[row, k].isColoredFromRow = true;
                     }
                 }
-            }
 
             if (flag == true)
                 return;
@@ -211,19 +198,14 @@ namespace Exercise_11
             }
 
             if (stringBuilder.ToString().ToHashSet().Count == 9)
-            {
                 for (int k = 0; k < newTextBoxes.GetLength(1); k++)
-                {
                     newTextBoxes[row, k].Enabled = false;
-                }
-            }
         }
 
         private void CheckColumn(int column)
         {
             bool flag = false;
             for (int i = 0; i < newTextBoxes.GetLength(0); i++) // Строка
-            {
                 for (int k = i + 1; k < newTextBoxes.GetLength(1); k++)
                 {
                     if (newTextBoxes[i, column].Text == "")
@@ -239,7 +221,6 @@ namespace Exercise_11
                         newTextBoxes[k, column].isColoredFromColumn = true;
                     }
                 }
-            }
 
             if (flag == true)
                 return;
@@ -333,24 +314,16 @@ namespace Exercise_11
             ColorBlock3x3(currentCoord, Color.White);
 
             for (int i = startPointRaw; i < endPointRaw + 1; i++)
-            {
                 for (int j = startPointColumn; j < endPointColumn + 1; j++)
                 {
                     newTextBoxes[i, j].isColoredFromBlock = false;
                     stringBuilder.Append(newTextBoxes[i, j].Text);
                 }
-            }
 
             if (stringBuilder.ToString().ToHashSet().Count == 9)
-            {
                 for (int i = startPointRaw; i < endPointRaw + 1; i++)
-                {
                     for (int j = startPointColumn; j < endPointColumn + 1; j++)
-                    {
                         newTextBoxes[i, j].Enabled = false;
-                    }
-                }
-            }
 
         }
 
@@ -363,9 +336,7 @@ namespace Exercise_11
                     continue;
 
                 if (newTextBoxes[row, i].Text == newTextBoxes[row, column].Text)
-                {
                     return false;
-                }
             }
 
             // Проверка столбца
@@ -375,9 +346,7 @@ namespace Exercise_11
                     continue;
 
                 if (newTextBoxes[i, column].Text == newTextBoxes[row, column].Text)
-                {
                     return false;
-                }
             }
 
             // Проверка блока 3 на 3
@@ -407,9 +376,7 @@ namespace Exercise_11
                         continue;
 
                     if (newTextBoxes[i, j].Text == newTextBoxes[row, column].Text)
-                    {
                         return false;
-                    }
                 }
             }
             return true;
@@ -434,25 +401,17 @@ namespace Exercise_11
             "853617294"
         };
 
-        private void BtnShowExample_Click(object sender, EventArgs e)
-        {
-            CreateMap(completeSudoku);
-        }
+        private void BtnShowExample_Click(object sender, EventArgs e) => CreateMap(completeSudoku);
 
         private void BtnCellsUnlock_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < newTextBoxes.GetLength(0); i++)
-            {
                 for (int j = 0; j < newTextBoxes.GetLength(1); j++)
-                {
                     newTextBoxes[i, j].Enabled = true;
-                }
-            }
         }
         private void BtnFixCondition_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < newTextBoxes.GetLength(0); i++)
-            {
                 for (int j = 0; j < newTextBoxes.GetLength(1); j++)
                 {
                     if (newTextBoxes[i, j].ForeColor == Color.Pink)
@@ -465,7 +424,6 @@ namespace Exercise_11
                         newTextBoxes[i, j].ReadOnly = true;
                     }
                 }
-            }
         }
 
         private void BtnSave_Click(object sender, EventArgs e)
@@ -502,33 +460,26 @@ namespace Exercise_11
             try
             {
                 string filePath = "save.txt";
-
                 string[] save = new string[9];
 
                 StringBuilder stringBuilder = new();
-
                 using StreamReader reader = new(filePath);
 
                 char tempChar;
-
                 for (int i = 0; i < newTextBoxes.GetLength(0); i++)
                 {
                     for (int j = 0; j < newTextBoxes.GetLength(1); j++)
                     {
                         tempChar = (char)reader.Read();
+
                         if (tempChar == '~')
-                        {
                             stringBuilder.Append(tempChar);
-                        }
                         else
-                        {
                             stringBuilder.Append(tempChar - '0');
-                        }
                     }
                     save[i] = stringBuilder.ToString();
                     stringBuilder.Clear();
                 }
-
                 CreateMap(save);
             }
             catch (Exception ex)
@@ -537,9 +488,6 @@ namespace Exercise_11
             }
         }
 
-        private void BtnNewGame_Click(object sender, EventArgs e)
-        {
-            CreateMap();
-        }
+        private void BtnNewGame_Click(object sender, EventArgs e) => CreateMap();
     }
 }

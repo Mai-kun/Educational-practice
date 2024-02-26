@@ -45,9 +45,7 @@ namespace Exercise_13
             }
 
             if (senderButton.Text == "Л")
-            {
                 return;
-            }
 
             if (startButton is not null && senderButton.Text == "")
             {
