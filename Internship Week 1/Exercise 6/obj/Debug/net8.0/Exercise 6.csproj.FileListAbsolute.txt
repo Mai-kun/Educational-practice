@@ -1,0 +1,15 @@
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\bin\Debug\net8.0\Exercise 6.exe
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\bin\Debug\net8.0\Exercise 6.deps.json
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\bin\Debug\net8.0\Exercise 6.runtimeconfig.json
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\bin\Debug\net8.0\Exercise 6.dll
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\bin\Debug\net8.0\Exercise 6.pdb
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\obj\Debug\net8.0\Exercise 6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\obj\Debug\net8.0\Exercise 6.AssemblyInfoInputs.cache
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\obj\Debug\net8.0\Exercise 6.AssemblyInfo.cs
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\obj\Debug\net8.0\Exercise 6.csproj.CoreCompileInputs.cache
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\obj\Debug\net8.0\Exercise 6.sourcelink.json
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\obj\Debug\net8.0\Exercise 6.dll
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\obj\Debug\net8.0\refint\Exercise 6.dll
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\obj\Debug\net8.0\Exercise 6.pdb
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\obj\Debug\net8.0\Exercise 6.genruntimeconfig.cache
+D:\Projects\Учебная практика\Internship Week 1\Exercise 6\obj\Debug\net8.0\ref\Exercise 6.dll

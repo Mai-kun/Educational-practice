@@ -87,7 +87,7 @@ namespace Exercise_11
                 return;
             }
 
-            if (!int.TryParse(newTextBox.Text, out int _))
+            if (!int.TryParse(newTextBox.Text, out int _) && newTextBox.Text != "")
             {
                 newTextBox.Text = "";
                 return;
@@ -189,7 +189,7 @@ namespace Exercise_11
 
             StringBuilder stringBuilder = new();
 
-            ColorRaw(row, Color.White);
+            ColorRaw(row, Color.Black);
 
             for (int j = 0; j < newTextBoxes.GetLength(1); j++)
             {
@@ -227,7 +227,7 @@ namespace Exercise_11
 
             StringBuilder stringBuilder = new();
 
-            ColorColumn(column, Color.White);
+            ColorColumn(column, Color.Black);
 
             for (int i = 0; i < newTextBoxes.GetLength(1); i++)
             {
@@ -311,7 +311,7 @@ namespace Exercise_11
 
             StringBuilder stringBuilder = new();
 
-            ColorBlock3x3(currentCoord, Color.White);
+            ColorBlock3x3(currentCoord, Color.Black);
 
             for (int i = startPointRaw; i < endPointRaw + 1; i++)
                 for (int j = startPointColumn; j < endPointColumn + 1; j++)
@@ -488,6 +488,46 @@ namespace Exercise_11
             }
         }
 
+<<<<<<< HEAD
         private void BtnNewGame_Click(object sender, EventArgs e) => CreateMap();
+=======
+        private void BtnNewGame_Click(object sender, EventArgs e)
+        {
+            string filePath = "level.txt";
+
+            string[] level = new string[9];
+
+            StringBuilder stringBuilder = new();
+
+            using StreamReader reader = new(filePath);
+
+            char tempChar;
+
+            Random rand = new Random();
+
+            for (int i = 0; i < newTextBoxes.GetLength(0); i++)
+            {
+                for (int j = 0; j < newTextBoxes.GetLength(1); j++)
+                {
+                    tempChar = (char)reader.Read();
+                    if (rand.Next(0,2) == 1)
+                    {
+                        stringBuilder.Append('~');
+                    }
+                    else if (tempChar == '~')
+                    {
+                        stringBuilder.Append(tempChar);
+                    }
+                    else
+                    {
+                        stringBuilder.Append(tempChar - '0');
+                    }
+                }
+                level[i] = stringBuilder.ToString();
+                stringBuilder.Clear();
+            }
+            CreateMap(level);
+        }
+>>>>>>> a3a07b85070a11e05f27d8b435e8aec6a8200ebd
     }
 }

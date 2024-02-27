@@ -35,7 +35,7 @@ namespace Exercise_7
 
         private static char[,] ReadMapAnswer(string choosedLevel)
         {
-            string[] newFile = File.ReadAllLines(@$"maps\mapsPath\{choosedLevel}Path.txt");
+            string[] newFile = File.ReadAllLines(@$"maps\mapsPath\{choosedLevel}Result.txt");
             char[,] map_path = new char[newFile.Length, newFile[0].Length];
 
             for (int i = 0; i < map_path.GetLength(0); i++)

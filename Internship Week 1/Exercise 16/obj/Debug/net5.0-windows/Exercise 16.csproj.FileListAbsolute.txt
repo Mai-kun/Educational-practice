@@ -1,0 +1,18 @@
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\bin\Debug\net5.0-windows\Exercise 16.exe
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\bin\Debug\net5.0-windows\Exercise 16.deps.json
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\bin\Debug\net5.0-windows\Exercise 16.runtimeconfig.json
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\bin\Debug\net5.0-windows\Exercise 16.runtimeconfig.dev.json
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\bin\Debug\net5.0-windows\Exercise 16.dll
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\bin\Debug\net5.0-windows\Exercise 16.pdb
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise_16.Form1.resources
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.csproj.GenerateResource.cache
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.AssemblyInfoInputs.cache
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.AssemblyInfo.cs
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.csproj.CoreCompileInputs.cache
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.sourcelink.json
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.dll
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\refint\Exercise 16.dll
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.pdb
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.genruntimeconfig.cache
+D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\ref\Exercise 16.dll
