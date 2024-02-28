@@ -9,8 +9,12 @@ namespace Exercise14
     {
         private readonly Color infectedColor = Color.Red;
         private readonly Color healthyColor = Color.Aqua;
+        private readonly Color imuneColor = Color.Yellow;
         private readonly double infectedChance = 0.5;
-        private readonly int sizePanel = 40;
+        private readonly int sizePanel = 20;
+
+        private readonly int infectedCount = 5; // Каждый n+1 тик смена цвета
+        private readonly int imuneCount = 3;    // Каждый n+1 тик смена цвета
 
         public Form1()
         {
@@ -69,7 +73,7 @@ namespace Exercise14
             int centerX = size / 2;
             int centerY = size / 2;
             panelsGrid[centerX, centerY].BackColor = infectedColor;
-            panelsGrid[centerX, centerY].InfectedCount = 6;
+            panelsGrid[centerX, centerY].InfectedCount = infectedCount;
         }
 
         private void DoIteration(ref TimerPanel[,] panelsGrid)
@@ -105,13 +109,18 @@ namespace Exercise14
                     else if (panelsGrid[i, j].BackColor == infectedColor && panelsGrid[i, j].InfectedCount == 0)
                     {
                         // Infected over
-                        newPanelsGrid[i, j].BackColor = healthyColor;
-                        newPanelsGrid[i, j].ImuneCount = 4;
+                        newPanelsGrid[i, j].BackColor = imuneColor;
+                        newPanelsGrid[i, j].ImuneCount = imuneCount;
                     }
-                    else if (panelsGrid[i, j].BackColor == healthyColor && panelsGrid[i, j].ImuneCount > 0)
+                    else if (panelsGrid[i, j].BackColor == imuneColor && panelsGrid[i, j].ImuneCount > 0)
                     {
                         // Imune continue
                         newPanelsGrid[i, j].ImuneCount--;
+                    }
+                    else if (panelsGrid[i, j].BackColor == imuneColor && panelsGrid[i, j].ImuneCount == 0)
+                    {
+                        // Imune continue
+                        newPanelsGrid[i, j].BackColor = healthyColor;
                     }
                     else if (panelsGrid[i, j].BackColor == healthyColor && panelsGrid[i, j].ImuneCount == 0)
                     {
@@ -120,25 +129,25 @@ namespace Exercise14
                         {
                             // up
                             newPanelsGrid[i, j].BackColor = infectedColor;
-                            newPanelsGrid[i, j].InfectedCount = 6;
+                            newPanelsGrid[i, j].InfectedCount = infectedCount;
                         }
                         if (i < size - 1 && panelsGrid[i + 1, j].BackColor == infectedColor && ShouldInfect())
                         {
                             // down
                             newPanelsGrid[i, j].BackColor = infectedColor;
-                            newPanelsGrid[i, j].InfectedCount = 6;
+                            newPanelsGrid[i, j].InfectedCount = infectedCount;
                         }
                         if (j > 0 && panelsGrid[i, j - 1].BackColor == infectedColor && ShouldInfect())
                         {
                             // left
                             newPanelsGrid[i, j].BackColor = infectedColor;
-                            newPanelsGrid[i, j].InfectedCount = 6;
+                            newPanelsGrid[i, j].InfectedCount = infectedCount;
                         }
                         if (j < size - 1 && panelsGrid[i, j + 1].BackColor == infectedColor && ShouldInfect())
                         {
                             // right
                             newPanelsGrid[i, j].BackColor = infectedColor;
-                            newPanelsGrid[i, j].InfectedCount = 6;
+                            newPanelsGrid[i, j].InfectedCount = infectedCount;
                         }
                     }
                 }

@@ -16,3 +16,21 @@ D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\De
 D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.pdb
 D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.genruntimeconfig.cache
 D:\Projects\Учебная практика\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\ref\Exercise 16.dll
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\bin\Debug\net5.0-windows\Exercise 16.exe
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\bin\Debug\net5.0-windows\Exercise 16.deps.json
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\bin\Debug\net5.0-windows\Exercise 16.runtimeconfig.json
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\bin\Debug\net5.0-windows\Exercise 16.runtimeconfig.dev.json
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\bin\Debug\net5.0-windows\Exercise 16.dll
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\bin\Debug\net5.0-windows\ref\Exercise 16.dll
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\bin\Debug\net5.0-windows\Exercise 16.pdb
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.csproj.AssemblyReference.cache
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise_16.Form1.resources
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.csproj.GenerateResource.cache
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.AssemblyInfoInputs.cache
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.AssemblyInfo.cs
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.csproj.CoreCompileInputs.cache
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.dll
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\ref\Exercise 16.dll
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.pdb
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 16\obj\Debug\net5.0-windows\Exercise 16.genruntimeconfig.cache

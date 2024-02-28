@@ -45,7 +45,7 @@ namespace Exercise_16
 
             public void RandVec(Random r, int speed)
             {
-                int num = r.Next(-10, 10);
+                int num = r.Next(-10, 10); 
                 int num2 = r.Next(-10, 10);
 
                 double distance = Math.Sqrt(num * num + num2 * num2);
@@ -54,7 +54,6 @@ namespace Exercise_16
 
                 x = (int)(speed * unitX);
                 y = (int)(speed * unitY);
-
             }
         }
     }

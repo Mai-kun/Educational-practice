@@ -1,0 +1,15 @@
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\bin\Debug\net5.0\Exercise 1 +.exe
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\bin\Debug\net5.0\Exercise 1 +.deps.json
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\bin\Debug\net5.0\Exercise 1 +.runtimeconfig.json
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\bin\Debug\net5.0\Exercise 1 +.runtimeconfig.dev.json
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\bin\Debug\net5.0\Exercise 1 +.dll
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\bin\Debug\net5.0\ref\Exercise 1 +.dll
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\bin\Debug\net5.0\Exercise 1 +.pdb
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\obj\Debug\net5.0\Exercise 1 +.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\obj\Debug\net5.0\Exercise 1 +.AssemblyInfoInputs.cache
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\obj\Debug\net5.0\Exercise 1 +.AssemblyInfo.cs
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\obj\Debug\net5.0\Exercise 1 +.csproj.CoreCompileInputs.cache
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\obj\Debug\net5.0\Exercise 1 +.dll
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\obj\Debug\net5.0\ref\Exercise 1 +.dll
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\obj\Debug\net5.0\Exercise 1 +.pdb
+C:\Users\790-21\Desktop\Educational-practice\Internship Week 1\Exercise 1\obj\Debug\net5.0\Exercise 1 +.genruntimeconfig.cache
