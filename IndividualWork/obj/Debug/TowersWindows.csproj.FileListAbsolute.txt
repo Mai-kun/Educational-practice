@@ -1,0 +1,20 @@
+C:\aa\C#\TowersWindows\bin\Debug\TowersWindows.exe.config
+C:\aa\C#\TowersWindows\bin\Debug\TowersWindows.exe
+C:\aa\C#\TowersWindows\bin\Debug\TowersWindows.pdb
+C:\aa\C#\TowersWindows\obj\Debug\TowersWindows.Form1.resources
+C:\aa\C#\TowersWindows\obj\Debug\TowersWindows.Properties.Resources.resources
+C:\aa\C#\TowersWindows\obj\Debug\TowersWindows.csproj.GenerateResource.cache
+C:\aa\C#\TowersWindows\obj\Debug\TowersWindows.csproj.CoreCompileInputs.cache
+C:\aa\C#\TowersWindows\obj\Debug\TowersWindows.exe
+C:\aa\C#\TowersWindows\obj\Debug\TowersWindows.pdb
+C:\aa\C#\TowersWindows\obj\Debug\TowersWindows.csprojAssemblyReference.cache
+C:\Users\googl\OneDrive\Рабочий стол\TowersWinformC--master\TowersWinformC--master\TowersWindows\bin\Debug\TowersWindows.exe.config
+C:\Users\googl\OneDrive\Рабочий стол\TowersWinformC--master\TowersWinformC--master\TowersWindows\bin\Debug\TowersWindows.exe
+C:\Users\googl\OneDrive\Рабочий стол\TowersWinformC--master\TowersWinformC--master\TowersWindows\bin\Debug\TowersWindows.pdb
+C:\Users\googl\OneDrive\Рабочий стол\TowersWinformC--master\TowersWinformC--master\TowersWindows\obj\Debug\TowersWindows.csproj.AssemblyReference.cache
+C:\Users\googl\OneDrive\Рабочий стол\TowersWinformC--master\TowersWinformC--master\TowersWindows\obj\Debug\TowersWindows.Form1.resources
+C:\Users\googl\OneDrive\Рабочий стол\TowersWinformC--master\TowersWinformC--master\TowersWindows\obj\Debug\TowersWindows.Properties.Resources.resources
+C:\Users\googl\OneDrive\Рабочий стол\TowersWinformC--master\TowersWinformC--master\TowersWindows\obj\Debug\TowersWindows.csproj.GenerateResource.cache
+C:\Users\googl\OneDrive\Рабочий стол\TowersWinformC--master\TowersWinformC--master\TowersWindows\obj\Debug\TowersWindows.csproj.CoreCompileInputs.cache
+C:\Users\googl\OneDrive\Рабочий стол\TowersWinformC--master\TowersWinformC--master\TowersWindows\obj\Debug\TowersWindows.exe
+C:\Users\googl\OneDrive\Рабочий стол\TowersWinformC--master\TowersWinformC--master\TowersWindows\obj\Debug\TowersWindows.pdb
